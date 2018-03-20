@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "./bin/madevent", line 83, in <module>
+    subprocess.call([sys.executable] + ['-O'] + sys.argv)
+  File "/usr/lib64/python2.6/subprocess.py", line 478, in call
+    p = Popen(*popenargs, **kwargs)
+  File "/usr/lib64/python2.6/subprocess.py", line 642, in __init__
+    errread, errwrite)
+  File "/usr/lib64/python2.6/subprocess.py", line 1234, in _execute_child
+    raise child_exception
+OSError: [Errno 13] Permission denied

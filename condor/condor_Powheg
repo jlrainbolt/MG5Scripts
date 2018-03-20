@@ -1,0 +1,10 @@
+##################################
+# skim
+##################################
+executable	= run_ntupleZemu.sh
+universe	= vanilla
+output		= zzz.out.Powheg
+error		= zzz.err.Powheg
+log		= zzz.log.Powheg
+
+queue

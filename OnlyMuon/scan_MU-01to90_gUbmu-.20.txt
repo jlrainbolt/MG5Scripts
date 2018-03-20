@@ -1,0 +1,72 @@
+launch ScalarU_gUbe-0/
+	ScalarU_gUbe-0/Cards/param_card_default.dat
+	set gUbe 0
+	set gUbmu 0.2
+	set MUb 1
+	set WUb Auto
+	set run_tag MU-01_gUbmu-.20
+launch ScalarU_gUbe-0/
+	ScalarU_gUbe-0/Cards/param_card_default.dat
+	set gUbe 0
+	set gUbmu 0.2
+	set MUb 10
+	set WUb Auto
+	set run_tag MU-10_gUbmu-.20
+launch ScalarU_gUbe-0/
+	ScalarU_gUbe-0/Cards/param_card_default.dat
+	set gUbe 0
+	set gUbmu 0.2
+	set MUb 20
+	set WUb Auto
+	set run_tag MU-20_gUbmu-.20
+launch ScalarU_gUbe-0/
+	ScalarU_gUbe-0/Cards/param_card_default.dat
+	set gUbe 0
+	set gUbmu 0.2
+	set MUb 30
+	set WUb Auto
+	set run_tag MU-30_gUbmu-.20
+launch ScalarU_gUbe-0/
+	ScalarU_gUbe-0/Cards/param_card_default.dat
+	set gUbe 0
+	set gUbmu 0.2
+	set MUb 40
+	set WUb Auto
+	set run_tag MU-40_gUbmu-.20
+launch ScalarU_gUbe-0/
+	ScalarU_gUbe-0/Cards/param_card_default.dat
+	set gUbe 0
+	set gUbmu 0.2
+	set MUb 50
+	set WUb Auto
+	set run_tag MU-50_gUbmu-.20
+launch ScalarU_gUbe-0/
+	ScalarU_gUbe-0/Cards/param_card_default.dat
+	set gUbe 0
+	set gUbmu 0.2
+	set MUb 60
+	set WUb Auto
+	set run_tag MU-60_gUbmu-.20
+launch ScalarU_gUbe-0/
+	ScalarU_gUbe-0/Cards/param_card_default.dat
+	set gUbe 0
+	set gUbmu 0.2
+	set MUb 70
+	set WUb Auto
+	set run_tag MU-70_gUbmu-.20
+launch ScalarU_gUbe-0/
+	ScalarU_gUbe-0/Cards/param_card_default.dat
+	set gUbe 0
+	set gUbmu 0.2
+	set MUb 80
+	set WUb Auto
+	set run_tag MU-80_gUbmu-.20
+launch ScalarU_gUbe-0/
+	ScalarU_gUbe-0/Cards/param_card_default.dat
+	set gUbe 0
+	set gUbmu 0.2
+	set MUb 90
+	set WUb Auto
+	set run_tag MU-90_gUbmu-.20
+launch ScalarU_gUbe-0/ -i
+	print_results --path=./ScalarU_gUbe-0/results.txt --format=short

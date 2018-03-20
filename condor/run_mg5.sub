@@ -1,0 +1,11 @@
+#################################
+# Submit & analyze one MG55 run #
+#################################
+Executable	= run_mg5.sh
+Universe    = vanilla
+
+Arguments   = 18 0.1 0.1
+Output		= run_mg5.out
+Error		= run_mg5.err
+Log		    = run_mg5.log
+Queue

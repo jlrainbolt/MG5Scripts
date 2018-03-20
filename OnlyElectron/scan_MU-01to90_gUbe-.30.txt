@@ -1,0 +1,70 @@
+generate_events
+	./Cards/param_card_default.dat
+	set gUbe 0.3
+	set gUbmu 0
+	set MUb 1
+	set WUb Auto
+	set run_tag MU-01_gUbe-.30
+generate_events
+	./Cards/param_card_default.dat
+	set gUbe 0.3
+	set gUbmu 0
+	set MUb 10
+	set WUb Auto
+	set run_tag MU-10_gUbe-.30
+generate_events
+	./Cards/param_card_default.dat
+	set gUbe 0.3
+	set gUbmu 0
+	set MUb 20
+	set WUb Auto
+	set run_tag MU-20_gUbe-.30
+generate_events
+	./Cards/param_card_default.dat
+	set gUbe 0.3
+	set gUbmu 0
+	set MUb 30
+	set WUb Auto
+	set run_tag MU-30_gUbe-.30
+generate_events
+	./Cards/param_card_default.dat
+	set gUbe 0.3
+	set gUbmu 0
+	set MUb 40
+	set WUb Auto
+	set run_tag MU-40_gUbe-.30
+generate_events
+	./Cards/param_card_default.dat
+	set gUbe 0.3
+	set gUbmu 0
+	set MUb 50
+	set WUb Auto
+	set run_tag MU-50_gUbe-.30
+generate_events
+	./Cards/param_card_default.dat
+	set gUbe 0.3
+	set gUbmu 0
+	set MUb 60
+	set WUb Auto
+	set run_tag MU-60_gUbe-.30
+generate_events
+	./Cards/param_card_default.dat
+	set gUbe 0.3
+	set gUbmu 0
+	set MUb 70
+	set WUb Auto
+	set run_tag MU-70_gUbe-.30
+generate_events
+	./Cards/param_card_default.dat
+	set gUbe 0.3
+	set gUbmu 0
+	set MUb 80
+	set WUb Auto
+	set run_tag MU-80_gUbe-.30
+generate_events
+	./Cards/param_card_default.dat
+	set gUbe 0.3
+	set gUbmu 0
+	set MUb 90
+	set WUb Auto
+	set run_tag MU-90_gUbe-.30

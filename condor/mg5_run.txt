@@ -1,0 +1,6 @@
+generate_events
+Cards/param_card_default.dat
+set MUb 18.0
+set gUbe 0.1
+set gUbmu 0.1
+set run_tag MU-18.0_gUbe-.10

@@ -1,0 +1,37 @@
+host is  ttnode0001
+location is  /scratch/condor/dir_18745
+Tue Mar 20 11:48:38 CDT 2018
+ 
+ Copy contents of MG5 directory to /scratch/condor/dir_18745
+ 
+/scratch/condor/dir_18745
+Cards
+Events
+HTML
+MGMEVersion.txt
+README
+README.systematics
+Source
+SubProcesses
+TemplateVersion.txt
+_condor_stderr
+_condor_stdout
+bin
+condor_exec.exe
+crossx.html
+index.html
+lib
+tarball.tar.gz
+ 
+ Write MG5 input text file 
+ 
+Wrote mg5_run.txt
+ 
+ Generate events 
+ 
+launch in debug mode
+ 
+ Delete leftover files 
+ 
+Finished.
+Tue Mar 20 11:48:39 CDT 2018

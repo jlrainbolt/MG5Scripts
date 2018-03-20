@@ -4,6 +4,8 @@ export TERM=dumb
 filepath="$1"
 filename="results.txt"
 filename="$filepath$filename"
+scriptpath="/tthome/jaj710/BranchingFraction/OnlyMuon/Source/"
+scriptname="fiducial_acc.py"
 events="Events/"
 lhename="/unweighted_events"
 lhe=".lhe"
@@ -17,11 +19,11 @@ sed 1d $filename | while read -r run tag cross error nevents
 do
     echo "Processing $tag events..."
     MU=${tag:3:2}
-    g="0${tag:8:3}"
+    g="0${tag:12:3}"
     thisfile="$tag$lhe"
     cp "$filepath$events$run$lhename$lhe$gz" "$thisfile$gz"
     gunzip "$thisfile$gz"
-    acceptance=$(python ~/BranchingFraction/Exclusion/Source/readStopLHE.py $thisfile)
+    acceptance=$(python "$scriptpath$scriptname" $thisfile)
     rm $thisfile
     echo "$MU $g $cross $error $acceptance" >> $outfile
 done

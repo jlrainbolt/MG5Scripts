@@ -1,0 +1,97 @@
+
+<HTML> 
+<HEAD> 
+     
+    <META HTTP-EQUIV="EXPIRES" CONTENT="20" > 
+    <TITLE>Online Event Generation</TITLE>
+    <link rel=stylesheet href="./HTML/mgstyle.css" type="text/css">
+</HEAD>
+<BODY>
+<script type="text/javascript">
+function UrlExists(url) {
+  var http = new XMLHttpRequest();
+  http.open('HEAD', url, false);
+  try{
+     http.send()
+     }
+  catch(err){
+   return 1==2;
+  }
+  return http.status!=404;
+}
+function check_link(url,alt, id){
+    var obj = document.getElementById(id);
+    if ( ! UrlExists(url)){
+       if ( ! UrlExists(alt)){
+         obj.href = url;
+         return 1==1;
+        }
+       obj.href = alt;
+       return 1 == 2;
+    }
+    obj.href = url;
+    return 1==1;
+}
+</script>    
+    <H2 align=center> Results in the /tthome/jaj710/MG5_aMC_v2_6_1/models/Scalar_U_v4_UFO for p p > z > l+ l-
+ </H2> 
+    <HR>
+    
+    <br>
+    <br>
+    <H2 align="center"> Available Results </H2>
+        <TABLE BORDER=2 align="center">  
+            <TR align="center">
+                <TH>Run</TH> 
+                <TH>Collider</TH> 
+                <TH> Banner </TH>
+                <TH> Cross section (pb) </TH> 
+                <TH> Events  </TH>
+                <TH> Data </TH>  
+                <TH>Output</TH>
+                <TH>Action</TH> 
+            </TR>      
+            
+        <tr>
+        <td rowspan=1>run_01</td> 
+        <td rowspan=1><center>  p  p <br> 6500.0 x 6500.0  GeV </center></td>
+        
+        <td rowspan=1> <a href="./Events/run_01/run_01_tag_1_banner.txt">tag_1</a></td>
+        
+        <td rowspan=1><center><a href="./HTML/run_01/results.html"> 1223 <font face=symbol>&#177;</font> 4.7 </a>  </center></td>
+        <td rowspan=1><center> 10<center></td><td> parton madevent </td>
+        <td>  <a  id='run_01_tag_1_parton_LHE' href='./Events/run_01/unweighted_events.lhe.gz' onClick="check_link('./Events/run_01/unweighted_events.lhe.gz','./Events/run_01/unweighted_events.lhe','run_01_tag_1_parton_LHE')">LHE</a></td>
+        <td> <INPUT TYPE=SUBMIT VALUE='remove run' onClick="alert('Launch ./bin/madevent in a shell, and run the following command: remove run_01 parton --tag=tag_1')"><INPUT TYPE=SUBMIT VALUE='launch detector simulation' onClick="alert('Launch ./bin/madevent in a shell, and run the following command: pythia run_01 ')"></td>
+        </tr>
+        </tr>
+        
+        <tr>
+        <td rowspan=1>0</td> 
+        <td rowspan=1><center>  p  p <br> 6500.0 x 6500.0  GeV </center></td>
+        
+        <td rowspan=1> <a href="./Events/0/0_tag_1_banner.txt">tag_1</a><br> <a href='./0_tag_1_debug.log'> <font color=red>ERROR</font></a></td>
+        
+        <td rowspan=1><center><a href="./HTML/0/results.html"> 0 <font face=symbol>&#177;</font> 0 </a>  </center></td>
+        <td rowspan=1><center> No events yet<center></td><td>  </td>
+        <td> banner only</td>
+        <td> <INPUT TYPE=SUBMIT VALUE='remove run' onClick="alert('Launch ./bin/madevent in a shell, and run the following command: remove 0 banner --tag=tag_1')"><INPUT TYPE=SUBMIT VALUE='re-run from the banner' onClick="alert('Launch ./bin/madevent in a shell, and run the following command: banner_run 0 ')"></td>
+        </tr>
+        </tr>
+        
+        <tr>
+        <td rowspan=1>run_02</td> 
+        <td rowspan=1><center>  p  p <br> 6500.0 x 6500.0  GeV </center></td>
+        
+        <td rowspan=1> <a href="./Events/run_02/run_02_MU-18.0_gUbe-.10_banner.txt">MU-18.0_gUbe-.10</a></td>
+        
+        <td rowspan=1><center><a href="./HTML/run_02/results.html"> 1225 <font face=symbol>&#177;</font> 4.8 </a>  </center></td>
+        <td rowspan=1><center> 10<center></td><td> parton madevent </td>
+        <td>  <a  id='run_02_MU-18.0_gUbe-.10_parton_LHE' href='./Events/run_02/unweighted_events.lhe.gz' onClick="check_link('./Events/run_02/unweighted_events.lhe.gz','./Events/run_02/unweighted_events.lhe','run_02_MU-18.0_gUbe-.10_parton_LHE')">LHE</a></td>
+        <td> <INPUT TYPE=SUBMIT VALUE='remove run' onClick="alert('Launch ./bin/madevent in a shell, and run the following command: remove run_02 parton --tag=MU-18.0_gUbe-.10')"><INPUT TYPE=SUBMIT VALUE='launch detector simulation' onClick="alert('Launch ./bin/madevent in a shell, and run the following command: pythia run_02 ')"></td>
+        </tr>
+        </tr>
+        
+        </TABLE>
+    <H3 align=center><A HREF="./index.html"> Main Page </A></H3>
+</BODY> 
+</HTML> 
