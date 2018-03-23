@@ -1,0 +1,22 @@
+###################################################
+# Find acceptance for all runs in ScalarU_gUbmu-0
+###################################################
+
+FNAME   = handle_lhes
+
+ID      = $(Cluster).$(Process)
+
+output  = $(FNAME).$(ID).out
+error   = $(FNAME).$(ID).err
+log     = $(FNAME).$(Cluster).log
+
+universe                = vanilla
+should_transfer_files   = YES
+when_to_transfer_output = ON_EXIT
+
+transfer_input_files    = fiducial_acc.py, acceptance_results.txt
+transfer_output_files   = acceptance_results.txt
+
+executable    = handle_lhe.sh
+
+queue transfer_input_files,arguments from [2:101:1] results.txt
