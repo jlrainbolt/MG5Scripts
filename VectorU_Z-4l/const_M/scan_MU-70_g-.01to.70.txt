@@ -1,0 +1,98 @@
+generate_events
+	./Cards/param_card_default.dat
+	set gUbe 0.01
+	set gUbmu 0.01
+	set MUb 70
+	set WUb Auto
+	set run_tag MU-70_g-.01
+generate_events
+	./Cards/param_card_default.dat
+	set gUbe 0.02
+	set gUbmu 0.02
+	set MUb 70
+	set WUb Auto
+	set run_tag MU-70_g-.02
+generate_events
+	./Cards/param_card_default.dat
+	set gUbe 0.05
+	set gUbmu 0.05
+	set MUb 70
+	set WUb Auto
+	set run_tag MU-70_g-.05
+generate_events
+	./Cards/param_card_default.dat
+	set gUbe 0.1
+	set gUbmu 0.1
+	set MUb 70
+	set WUb Auto
+	set run_tag MU-70_g-.10
+generate_events
+	./Cards/param_card_default.dat
+	set gUbe 0.15
+	set gUbmu 0.15
+	set MUb 70
+	set WUb Auto
+	set run_tag MU-70_g-.15
+generate_events
+	./Cards/param_card_default.dat
+	set gUbe 0.2
+	set gUbmu 0.2
+	set MUb 70
+	set WUb Auto
+	set run_tag MU-70_g-.20
+generate_events
+	./Cards/param_card_default.dat
+	set gUbe 0.25
+	set gUbmu 0.25
+	set MUb 70
+	set WUb Auto
+	set run_tag MU-70_g-.25
+generate_events
+	./Cards/param_card_default.dat
+	set gUbe 0.3
+	set gUbmu 0.3
+	set MUb 70
+	set WUb Auto
+	set run_tag MU-70_g-.30
+generate_events
+	./Cards/param_card_default.dat
+	set gUbe 0.35
+	set gUbmu 0.35
+	set MUb 70
+	set WUb Auto
+	set run_tag MU-70_g-.35
+generate_events
+	./Cards/param_card_default.dat
+	set gUbe 0.4
+	set gUbmu 0.4
+	set MUb 70
+	set WUb Auto
+	set run_tag MU-70_g-.40
+generate_events
+	./Cards/param_card_default.dat
+	set gUbe 0.45
+	set gUbmu 0.45
+	set MUb 70
+	set WUb Auto
+	set run_tag MU-70_g-.45
+generate_events
+	./Cards/param_card_default.dat
+	set gUbe 0.5
+	set gUbmu 0.5
+	set MUb 70
+	set WUb Auto
+	set run_tag MU-70_g-.50
+generate_events
+	./Cards/param_card_default.dat
+	set gUbe 0.6
+	set gUbmu 0.6
+	set MUb 70
+	set WUb Auto
+	set run_tag MU-70_g-.60
+generate_events
+	./Cards/param_card_default.dat
+	set gUbe 0.7
+	set gUbmu 0.7
+	set MUb 70
+	set WUb Auto
+	set run_tag MU-70_g-.70

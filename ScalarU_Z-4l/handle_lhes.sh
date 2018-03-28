@@ -14,10 +14,10 @@ lhe=".lhe"
 gz=".gz"
 outfile="acceptance_results.txt"
 
-echo "# MU g cross error Nb_pass_M4l Nb_pass_all" > $outfile
+echo "# MU g width error Nb_pass_M4l Nb_pass_all" > $outfile
 
 # Copy file over, unzip, calculate acceptance
-sed 1d $filename | while read -r run tag cross error nevents
+sed 1d $filename | while read -r run tag width error nevents
 do
     echo "Processing $tag events..."
     MU=${tag:3:2}
@@ -27,5 +27,5 @@ do
     gunzip "$thisfile$gz"
     acceptance=$(python "$scriptpath$scriptname" $thisfile)
     rm $thisfile
-    echo "$MU $g $cross $error $acceptance" >> $outfile
+    echo "$MU $g $width $error $acceptance" >> $outfile
 done
